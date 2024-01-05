@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>First CSS</title>
+    <style>
+        .smaller-image{
+            width: 100px;
+        }
+        .larger-image{
+            width: 200px;
+        }
+        .thick-green-border{
+            border-color: black ;
+            border-style: double;
+            border-width: 10px;
+        }
+        .thick-green-border:hover{
+            border-color: black ;
+            border-style: solid;
+            border-width: 6px;
+            border-radius: 0px; //ทำให้ภาพกลม
+        }
+        #content{
+            border: 5px solid rgb(0, 0, 0);
+            padding: 10px 20px;
+            width: 50px;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://wallpapers-clan.com/wp-content/uploads/2022/07/manga-2.jpg"class="smaller-image thick-green-border"/>
+    
+    <img src="https://wallpapers-clan.com/wp-content/uploads/2022/07/manga-2.jpg"class="larger-image thick-green-border"/>
+    <div id="content">Content</div>
+    <div id="content">Content</div>
+    
+</body>
